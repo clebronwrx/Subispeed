@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity Suite" duration-ms="5552" started-at="2020-07-20T18:48:37 EDT" finished-at="2020-07-20T18:48:42 EDT">
+    <groups>
+    </groups>
+    <test name="WRX Link Test" duration-ms="5552" started-at="2020-07-20T18:48:37 EDT" finished-at="2020-07-20T18:48:42 EDT">
+      <class name="com.qa.subispeed.test.HomePageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.subispeed.test.HomePageTest@4678c730]" name="init" is-config="true" duration-ms="4131" started-at="2020-07-20T18:48:37 EDT" finished-at="2020-07-20T18:48:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.subispeed.test.HomePageTest@4678c730]" name="setup" is-config="true" duration-ms="18" started-at="2020-07-20T18:48:41 EDT" finished-at="2020-07-20T18:48:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyWRXLinkTest()[pri:0, instance:com.qa.subispeed.test.HomePageTest@4678c730]" name="verifyWRXLinkTest" duration-ms="1276" started-at="2020-07-20T18:48:41 EDT" finished-at="2020-07-20T18:48:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWRXLinkTest -->
+        <test-method status="PASS" signature="breakdown()[pri:0, instance:com.qa.subispeed.test.HomePageTest@4678c730]" name="breakdown" is-config="true" duration-ms="103" started-at="2020-07-20T18:48:42 EDT" finished-at="2020-07-20T18:48:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- breakdown -->
+      </class> <!-- com.qa.subispeed.test.HomePageTest -->
+    </test> <!-- WRX Link Test -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>
