@@ -25,6 +25,7 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
 		</dependency>
+
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
@@ -62,9 +63,9 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
 					<configuration>
-				<suiteXmlFiles>
-				<suiteXmlFile>/Users/chrislebron/eclipse-workspace/Sample001/src/test/resources/sanity.xml</suiteXmlFile>
-				</suiteXmlFiles>
+						<suiteXmlFiles>
+							<suiteXmlFile>/Users/chrislebron/eclipse-workspace/Sample001/src/test/resources/sanity.xml</suiteXmlFile>
+						</suiteXmlFiles>
 					</configuration>
 				</plugin>
 				<plugin>
