@@ -1,5 +1,6 @@
 package com.qa.subispeed.base;
 
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -15,7 +16,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestBase {
 
 	public static WebDriver driver;
-	
+	public Properties prop;
+	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
 	@BeforeMethod
 	public static void init() {
 		WebDriverManager.chromedriver().setup();
