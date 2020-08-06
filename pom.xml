@@ -68,7 +68,7 @@
 					<version>2.22.1</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>target/test-classes/sanity.xml</suiteXmlFile>
+							<suiteXmlFile>sanity.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
