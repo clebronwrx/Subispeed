@@ -29,15 +29,15 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Sanity_Suite">
+            <a href="#" panel-name="suite-Sanity_Suite" class="navigator-link">
               <span class="suite-name border-passed">Sanity Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Sanity_Suite">
+                  <a href="#" panel-name="test-xml-Sanity_Suite" class="navigator-link ">
                     <span>sanity.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Sanity_Suite">
+                  <a href="#" panel-name="testlist-Sanity_Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Sanity_Suite">
+                  <a href="#" panel-name="group-Sanity_Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Sanity_Suite">
+                  <a href="#" panel-name="times-Sanity_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Sanity_Suite">
+                  <a href="#" panel-name="reporter-Sanity_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Sanity_Suite">
+                  <a href="#" panel-name="ignored-methods-Sanity_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Sanity_Suite">
+                  <a href="#" panel-name="chronological-Sanity_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -101,8 +101,8 @@
                     </span>
                     <div class="method-list-content passed suite-Sanity_Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.qa.subispeed.test.HomePageTest" hash-for-method="verifyWRXLinkTest">verifyWRXLinkTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Sanity_Suite" title="com.qa.subispeed.test.HomePageTest" class="method navigator-link" hash-for-method="verifyWRXLinkTest">verifyWRXLinkTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Sanity_Suite -->
@@ -135,14 +135,14 @@
         </div> <!-- panel Sanity_Suite -->
         <div panel-name="test-xml-Sanity_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/chrislebron/eclipse-workspace/Sample001/sanity.xml</span>
+            <span class="header-content">/Users/chrislebron/eclipse-workspace/Sample001/target/test-classes/sanity.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Sanity Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;WRX_Link_Test&quot;&gt;
+&lt;suite name=&quot;Sanity Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;WRX_Link_Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.subispeed.test.HomePageTest&quot;/&gt;
     &lt;/classes&gt;
@@ -188,12 +188,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyWRXLinkTest')
 data.setCell(0, 2, 'com.qa.subispeed.test.HomePageTest')
-data.setCell(0, 3, 871);
+data.setCell(0, 3, 688);
 window.suiteTableData['Sanity_Suite']= { tableData: data, tableDiv: 'times-div-Sanity_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 871 ms</span>
+              <span class="suite-total-time">Total running time: 688 ms</span>
               <div id="times-div-Sanity_Suite">
               </div> <!-- times-div-Sanity_Suite -->
             </div> <!-- times-div -->
@@ -226,15 +226,15 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">3918 ms</span>
+                <span class="method-start">4358 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyWRXLinkTest</span>
-                <span class="method-start">3931 ms</span>
+                <span class="method-start">4373 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">breakdown</span>
-                <span class="method-start">4804 ms</span>
+                <span class="method-start">5063 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
